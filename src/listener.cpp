@@ -59,6 +59,8 @@ int main(int argc, char **argv)
    * NodeHandle destructed will close down the node.
    */
   ros::NodeHandle n;
+  
+  int i;
 
   /**
    * The subscribe() call is how you tell ROS that you want to receive messages
