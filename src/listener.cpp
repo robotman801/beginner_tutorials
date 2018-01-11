@@ -60,8 +60,6 @@ int main(int argc, char **argv)
    */
   ros::NodeHandle n;
 
-  int i;
-
   /**
    * The subscribe() call is how you tell ROS that you want to receive messages
    * on a given topic.  This invokes a call to the ROS
