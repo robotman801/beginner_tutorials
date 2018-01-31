@@ -60,7 +60,7 @@ int main(int argc, char **argv)
    */
   ros::NodeHandle n;
   
-  int i,j;
+  int i;
 
   /**
    * The subscribe() call is how you tell ROS that you want to receive messages
